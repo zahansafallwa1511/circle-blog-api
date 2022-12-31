@@ -6,7 +6,7 @@ controller, middleware and tests. This piece of code is not production ready and
 Technology:\
 Laravel: 8.75\
 PHP: >7.3\
-Mariadb: 10.6\
+Mariadb: 10.6
 
 How to run:\
 composer install\
@@ -15,8 +15,8 @@ php artisan key:generate\
 Generate passport client: php artisan passport:client --passsword\
 cp sample.env .env\
 php artisan migrate\
-php artisan db:seed\
+php artisan db:seed
 
 To test:\
-./vendor/bin/phpunit {optional: path_to_test_file}\
+./vendor/bin/phpunit {optional: path_to_test_file}
 
